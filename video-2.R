@@ -17,7 +17,8 @@ boxplot(my_data$Height , my_data$Weight)
 
 boxplot(my_data$Height , my_data$Crop)   # gives an error, x-axis or argument must comes first
 
-boxplot(my_data$Crop ,my_data$Height)  # error, because there is different function for boxplot between two different variable types
+boxplot(my_data$Crop ,my_data$Height)  # error, because there is different function for boxplot between two different variable types and different for two nuumerical variables
 
 
 boxplot(my_data$Height ~ my_data$Crop)
+
